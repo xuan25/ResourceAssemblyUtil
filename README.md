@@ -2,7 +2,7 @@
 
 **Utility for loading assemblies from resources automatically.**
 
-To apply this utility, use the line below:
+To apply this utility, use the code below:
 
 ```C#
 AppDomain.CurrentDomain.AssemblyResolve += ResourceAssemblyUtil.AssemblyResolveHandler;
